@@ -49,12 +49,14 @@ body{
     text-decoration:none;
     color:#777;
     font-size:20px;
+    transition:0.3s ease;
 }
 
 
 .list-item a:hover{
-    color:#3292a6;
+    color:#000;
 }
+
 
 
 /* checkbox hide */
@@ -87,6 +89,7 @@ body{
 #menu-toggle:checked + .menu-icon{
     border-color:black;
 }
+
 
 
 /* mobile */
