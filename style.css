@@ -3,6 +3,7 @@ body{
     font-family:"Segoe UI", sans-serif;
 }
 
+/* Navbar */
 
 .nav-container{
     display:flex;
@@ -13,19 +14,16 @@ body{
     background:white;
 }
 
-
 .div-item{
     display:flex;
     align-items:center;
     gap:12px;
 }
 
-
 .img{
     width:50px;
     height:50px;
 }
-
 
 .div-item h1{
     margin:0;
@@ -34,7 +32,7 @@ body{
     color:#333;
 }
 
-
+/* Menu */
 
 .list-item{
     display:flex;
@@ -44,30 +42,26 @@ body{
     padding:0;
 }
 
-
 .list-item a{
     text-decoration:none;
     color:#777;
     font-size:20px;
-    transition:0.3s ease;
+    transition:color 0.3s ease;
 }
 
-
-.list-item a:hover{
+.list-item a:hover,
+.list-item a:focus,
+.list-item a:active{
     color:#000;
 }
 
-
-
-/* checkbox hide */
+/* Hide Checkbox */
 
 #menu-toggle{
     display:none;
 }
 
-
-
-/* hamburger */
+/* Hamburger */
 
 .menu-icon{
     display:none;
@@ -77,7 +71,6 @@ body{
     padding:8px 10px;
 }
 
-
 .menu-icon svg{
     width:24px;
     height:24px;
@@ -85,14 +78,11 @@ body{
     fill:#777;
 }
 
-
 #menu-toggle:checked + .menu-icon{
     border-color:black;
 }
 
-
-
-/* mobile */
+/* Mobile */
 
 @media(max-width:768px){
 
@@ -101,12 +91,10 @@ body{
         flex-wrap:wrap;
     }
 
-
     .menu-icon{
         display:block;
         margin-left:auto;
     }
-
 
     .list-item{
         display:none;
@@ -117,11 +105,9 @@ body{
         margin-top:15px;
     }
 
-
     #menu-toggle:checked ~ .list-item{
         display:flex;
     }
-
 
     .list-item a{
         font-size:18px;
