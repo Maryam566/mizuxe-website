@@ -141,6 +141,85 @@ line-height:1.7;
    height:650px;
 
 }
+.form{
+      background:#333;
+    padding:40px 80px;
+}
+.form-content form{
+      display: flex;
+    align-items: center;
+      justify-content:center;
+       gap:20px;
+}
+.form-content input{
+    width:350px;
+    padding:15px;
+    font-size:18px;
+     border:1px solid #ddd;
+    border-radius:5px;
+}
+.form-content input:focus{
+    outline:none;
+    border:1px solid #ccc;
+}
+
+.form-content button{
+    width:220px;
+    padding:15px;
+    font-size:18px;
+    background:#3292a6;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.form-content button:hover{
+    background:#26798a;
+}
+.container{
+    background-color: white;
+     padding:50px 80px;
+}
+.container-div{
+display: flex;
+gap:30px;
+ justify-content:center;
+}
+.container-box{
+  background-color: #26798a;
+    color: white;
+   
+}
+
+.container-box2{
+     background-color: white;
+    color:#26798a;
+   
+    
+}
+.container-box,
+.container-box2{
+    width:210px;
+    padding:20px 20px 30px 20px;
+    text-align:center;
+    border:1px solid#26798a;
+}
+
+
+.container-box h3,
+.container-box2 h3{
+    margin:0 0 10px;
+    font-size:22px;
+}
+
+.container-box p,
+.container-box2 p{
+    margin:0;
+    font-size:15px;
+    line-height:1.5;
+}
 
 /* Mobile */
 
@@ -221,6 +300,58 @@ line-height:1.7;
     height:auto;
     display:block;
     margin:0 auto;
+}
+.form{
+    padding:30px 20px;
+}
+
+.form-content{
+    width:100%;
+}
+
+.form-content form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    width:100%;
+}
+
+.form-content input{
+    width:100%;
+    box-sizing:border-box;
+    font-size:16px;
+}
+
+.form-content button{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+}
+.container{
+    padding:30px 20px;
+}
+
+.container-div{
+    flex-direction:column;
+    align-items:center;
+    gap:0;
+}
+
+.container-box,
+.container-box2{
+    width:100%;
+    max-width:280px;
+    padding:20px 15px;
+}
+
+.container-box h3,
+.container-box2 h3{
+    font-size:22px;
+}
+
+.container-box p,
+.container-box2 p{
+    font-size:15px;
 }
 
 }
