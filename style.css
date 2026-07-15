@@ -355,8 +355,11 @@ padding: 8px 10px;
     }
 
 .list-item{
-
+     position:absolute;
+    top:82px;
+    left:0;
     width:100%;
+    background:#fff;
 
     display:flex;
     flex-direction:column;
@@ -364,7 +367,7 @@ padding: 8px 10px;
 
     gap:0;
 
-    margin-top:15px;
+     margin-top:0;
 
     max-height:0;
     opacity:0;
