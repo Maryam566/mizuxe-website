@@ -14,47 +14,52 @@
     <header>
         <nav class="nav-container">
 
-            <div class="div-item">
-                <img src="mlogo.png" class="img" alt="logo">
-                <h1>Mizuxe</h1>
+
+            <div class="wrapper">
+                <div class="div-item">
+                    <img src="mlogo.png" class="img" alt="logo">
+                    <h1>Mizuxe</h1>
+                </div>
+
+                <input type="checkbox" id="menu-toggle">
+
+                <label for="menu-toggle" class="menu-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zm0 160c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 192H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
+                    </svg>
+                </label>
+
+
+                <ul class="list-item">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Meet the Authors</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">SMS</a></li>
+                </ul>
             </div>
-
-            <input type="checkbox" id="menu-toggle">
-
-            <label for="menu-toggle" class="menu-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path
-                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zm0 160c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 192H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
-                </svg>
-            </label>
-
-
-            <ul class="list-item">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Meet the Authors</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">SMS</a></li>
-            </ul>
-
         </nav>
     </header>
     <main>
         <section class="hero">
-            <div class="hero-content">
-                <h1>Do What You Dream Off.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, at.</p>
+            <div class="wrapper">
+                <div class="hero-content">
+                    <h1>Do What You Dream Off.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, at.</p>
 
-                <a href="#">
-                    Read More
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-            <div class="hero-image">
-                <img src="hero.png" class="hero-img" alt="hero image">
+                    <a href="#">
+                        Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero.png" class="hero-img" alt="hero image">
+                </div>
             </div>
         </section>
         <section class="form">
+           <div class="form-wrapper">
             <div class="form-content">
                 <form>
                     <div> <input type="text" placeholder="Enter Name"></div>
@@ -66,6 +71,7 @@
                     </div>
 
                 </form>
+            </div>
             </div>
         </section>
         <section class="container">
