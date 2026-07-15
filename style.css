@@ -359,7 +359,7 @@ padding: 8px 10px;
 
   .nav-container{
 
-    height:82px;
+    height:95px;
 
     flex-wrap:wrap;
 
@@ -367,6 +367,10 @@ padding: 8px 10px;
 .wrapper{
     padding:0 20px;
     flex-wrap:wrap;
+     position: relative;
+}
+.nav-container .wrapper{
+    height:95px;
 }
 
     .div-item h1 {
@@ -385,7 +389,9 @@ padding: 8px 10px;
 
 .list-item{
      position:absolute;
-    top:82px;
+ 
+    top:93px;
+
     left:0;
     width:100%;
     background:#fff;
