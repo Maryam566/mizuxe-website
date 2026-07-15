@@ -6,8 +6,6 @@
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    background: #fff;
     overflow-x: hidden;
     padding-top: 82px;
 }
@@ -26,16 +24,14 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 70px;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .12);
+   padding: 18px 70px;
+
 }
 
 .div-item {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 10px;
 }
 
 .img {
@@ -59,23 +55,16 @@ img {
     align-items: center;
     list-style: none;
     gap: 18px;
-
-}
-
-.list-item li {
-    list-style: none;
+    background:#fff;
 
 }
 
 .list-item a {
     text-decoration: none;
-
-    color: #777;
+ color: #777;
     font-size: 18px;
-
-    padding: 8px 12px;
-
-    transition: color .3s;
+padding: 8px 12px;
+transition: color .3s;
 
 
 }
@@ -95,14 +84,10 @@ img {
 .menu-icon {
 
     display: none;
-
-    cursor: pointer;
-
-    border: 1px solid #ddd;
-
-    border-radius: 4px;
-
-    padding: 8px 10px;
+cursor: pointer;
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 8px 10px;
 
 }
 
@@ -178,30 +163,21 @@ img {
 
 .hero-content a:hover {
     background: #6c757d;
-    /* Gray background */
+
     border-color: #6c757d;
-    /* Gray border */
+    
     color: white;
 }
-
-.hero-content i {
-
-    margin-left: 6px;
-
-}
-
 .hero-image {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     position: relative;
     z-index: 2;
 }
 
 .hero-img {
     width: 480px;
-    /* ya 500px agar thodi aur badi chahiye */
     height: auto;
 }
 
@@ -211,9 +187,6 @@ img {
     padding: 40px 80px;
 }
 
-.form-content {
-    width: 100%;
-}
 
 .form-content form {
 
@@ -224,12 +197,6 @@ img {
     align-items: center;
 
     gap: 18px;
-
-}
-
-.form-content form div {
-
-    display: flex;
 
 }
 
@@ -255,7 +222,6 @@ img {
 .form-content input:focus {
 
     border-color: #ccc;
-
 }
 
 .form-content button {
@@ -289,7 +255,7 @@ img {
 
 .form-content button:hover {
 
-    background: #3292a6;
+    background: rgb(0, 174, 243);
 
 }
 
