@@ -382,40 +382,36 @@ padding: 8px 10px;
     line-height:1.6;
     border-bottom: 1px solid #ddd;
 padding-bottom: 40px;
-}
-.about-bottom{
+}.accordion{
     width:100%;
-    margin-top:0px;
-
 }
 
-.about-bottom details{
-    border:1px solid #ddd;
-     width:100%;
+.accordion-item{
+    width:100%;
+    margin-bottom:0;
 }
 
-.about-bottom summary{
+.accordion-btn{
+    width:100%;
     background:#3292a6;
     color:#fff;
-    list-style:none;
+    border:1px solid #ddd;
     padding:16px 20px;
     cursor:pointer;
     font-size:20px;
     font-weight:400;
-     text-align:center;
-} .about-bottom summary::before{
-   position:relative;
-    top:-4px;
-  content:"\f063";
-    font-family:"Font Awesome 6 Free";
-    font-weight:900;
+    text-align:center;
+}
+
+.accordion-btn i{
+    position: relative;
+top: -4px;
+    width:18px;
+    height:18px;
 
     display:inline-flex;
     justify-content:center;
     align-items:center;
-
-    width:18px;
-    height:18px;
 
     background:#fff;
     color:#3292a6;
@@ -424,19 +420,22 @@ padding-bottom: 40px;
 
     font-size:12px;
 
-    margin-right:0px; 
-
+    margin-right:0px;
 }
-.about-bottom p{
+
+.accordion-content{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.4s ease;
+}
+
+.accordion-content p{
     background:#fff;
     color:#212529;
     padding:20px;
     line-height:1.6;
     text-align:center;
-}
-
-summary::-webkit-details-marker{
-    display:none;
+    margin:0;
 }
 @media (max-width:768px) {
 
@@ -702,21 +701,28 @@ summary::-webkit-details-marker{
     line-height:1.6;
     padding-bottom:25px;
 }
-
-.about-bottom{
+.accordion{
     width:100%;
 }
 
-.about-bottom details{
+.accordion-item{
     width:100%;
 }
 
-.about-bottom summary{
+.accordion-btn{
+    width:100%;
     padding:14px 15px;
     font-size:18px;
 }
 
-.about-bottom p{
+.accordion-btn i{
+    margin-right:5px;
+    width:16px;
+    height:16px;
+    font-size:10px;
+}
+
+.accordion-content p{
     padding:15px;
     font-size:15px;
 }
