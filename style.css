@@ -353,7 +353,91 @@ padding: 8px 10px;
 
 }
 
+.about{
+    background:#f8f9fa;
+    padding:60px 0;
 
+}
+.about .wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+.about-top{
+    text-align: center;
+     margin-bottom: 40px;
+}
+.about-top h1{
+    font-size: 40px;
+    font-weight: 600;
+    color:  #3292a6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 22px;
+}
+.about-top p{
+     max-width:600px;
+    margin:0 auto 16px;
+    color:#212529;
+    font-size:20px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height:1.6;
+    border-bottom: 1px solid #ddd;
+padding-bottom: 40px;
+}
+.about-bottom{
+    width:100%;
+    margin-top:0px;
+
+}
+
+.about-bottom details{
+    border:1px solid #ddd;
+     width:100%;
+}
+
+.about-bottom summary{
+    background:#3292a6;
+    color:#fff;
+    list-style:none;
+    padding:16px 20px;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:400;
+     text-align:center;
+} .about-bottom summary::before{
+   position:relative;
+    top:-4px;
+  content:"\f063";
+    font-family:"Font Awesome 6 Free";
+    font-weight:900;
+
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    width:18px;
+    height:18px;
+
+    background:#fff;
+    color:#3292a6;
+
+    border-radius:50%;
+
+    font-size:12px;
+
+    margin-right:0px; 
+
+}
+.about-bottom p{
+    background:#fff;
+    color:#212529;
+    padding:20px;
+    line-height:1.6;
+    text-align:center;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
 @media (max-width:768px) {
 
 
@@ -590,5 +674,50 @@ padding: 8px 10px;
 
         margin-top: -1px;
 
-    }
+    }/* About section mobile responsive */
+.about{
+    padding:40px 0;
+}
+
+.about .wrapper{
+    padding:0 35px;
+}
+
+.about-top{
+    width:100%;
+    margin-bottom:25px;
+}
+
+.about-top h1{
+    font-size:32px;
+    line-height:1.2;
+    max-width:250px;
+    margin:0 auto 15px;
+}
+
+.about-top p{
+    max-width:280px;
+    margin:0 auto;
+    font-size:17px;
+    line-height:1.6;
+    padding-bottom:25px;
+}
+
+.about-bottom{
+    width:100%;
+}
+
+.about-bottom details{
+    width:100%;
+}
+
+.about-bottom summary{
+    padding:14px 15px;
+    font-size:18px;
+}
+
+.about-bottom p{
+    padding:15px;
+    font-size:15px;
+}
 }
