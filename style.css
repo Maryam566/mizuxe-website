@@ -389,6 +389,7 @@ padding-bottom: 40px;
 .accordion-item{
     width:100%;
     margin-bottom:0;
+      border:1px solid #ddd;
 }
 
 .accordion-btn{
@@ -401,6 +402,20 @@ padding-bottom: 40px;
     font-size:20px;
     font-weight:400;
     text-align:center;
+     outline:none;
+    -webkit-tap-highlight-color: transparent;
+    appearance:none;
+    -webkit-appearance:none;
+     border:none;
+}
+
+.accordion-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-btn:active{
+    background:#3292a6;
 }
 
 .accordion-btn i{
@@ -421,6 +436,7 @@ top: -4px;
     font-size:12px;
 
     margin-right:0px;
+    
 }
 
 .accordion-content{
