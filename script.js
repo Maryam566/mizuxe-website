@@ -20,3 +20,14 @@ buttons.forEach(function(button){
     });
 
 });
+
+
+document.querySelectorAll(".list-item a").forEach(function(link){
+
+    link.addEventListener("click", function(){
+
+        document.getElementById("menu-toggle").click();
+
+    });
+
+});
